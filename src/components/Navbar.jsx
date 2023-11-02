@@ -9,7 +9,7 @@ function Navbar() {
                 <button className=" btn ml-auto px-4 max-sm:hidden flex">about</button>
                 <button className="btn px-4 max-sm:hidden flex">resume</button>
                 <button className="btn px-4 max-sm:hidden flex">contact</button>
-                <h2 className="ml-auto flex flex-col"><Dropdown/></h2>
+                <h2 className="ml-auto absolute max-sm:relative flex flex-col"><Dropdown/></h2>
             </div>
         </div>
     )
