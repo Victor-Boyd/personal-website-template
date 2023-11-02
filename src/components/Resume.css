@@ -1,0 +1,16 @@
+
+.resume-container {
+    height: 40rem;
+}
+.resume-span {
+    height: 38rem;
+}
+
+@media screen and (min-width: 660px) {
+    .resume-container {
+        height: 55rem;
+    }
+    .resume-span {
+        height: 50rem;
+    }
+}
