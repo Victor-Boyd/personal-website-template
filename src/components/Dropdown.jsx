@@ -6,16 +6,18 @@ const Dropdown = () => {
   const parent = useRef(null)
 
   useEffect(() => {
-    const parentOne = parent.current
-    console.log(parent.parentOne, parent.current)
     parent.current && autoAnimate(parent.current)
   }, [parent])
 
   const reveal = () => setShow(!show)
 
-  return <div ref={parent}>
-    <strong className="dropdown-label text-2xl" onClick={reveal}>more</strong>
-    { show && <p className="dropdown-content" >Lorum ipsum...</p> }
+  return <div className="hidden max-sm:flex flex-col " ref={parent}>
+    <strong className="dropdown-label max-sm:text-2xl md:hidden" onClick={reveal}>more</strong>
+    { show && <p className="dropdown-content flex flex-col max-sm:text-xl" >
+    <button className="">about</button>
+    <button className="">resume</button>
+    <button className="">contact</button>
+    </p> }
   </div>
 }
 

@@ -1,0 +1,14 @@
+.navbar {
+    width: 100vw;
+    min-height: 4rem;
+    height: fit-content;
+}
+
+.btn {
+    color: white;
+}
+
+.home-btn {
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: clamp(2rem, 3vw, 3rem);
+}
