@@ -1,3 +1,7 @@
+.navbar-placeholder {
+    min-height: 4rem;
+}
+
 .navbar {
     min-height: 4rem;
     height: fit-content;
