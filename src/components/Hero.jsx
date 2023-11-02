@@ -2,9 +2,9 @@ import './Hero.css'
 
 function Hero() {
     return (
-        <div className="hero-container h-96 grid place-content-center bg-slate-600">
-            <div className="">
-                big balls
+        <div className="hero-container h-96 grid place-content-center ">
+            <div className="text-4xl font-black">
+                Your picture and intro here!
             </div>
         </div>
     )
